@@ -1,0 +1,7 @@
+<div class="box">
+  <div class="cont" *ngFor="let product of products">
+    <a [routerLink]="['/products', product.id, 'product_detail']">Name: {{product.name}}</a>
+    <p>Image: {{product.image}}</p>
+    <p>Status: {{product.status}}</p>
+  </div>
+</div>
