@@ -1,12 +1,16 @@
 <app-top-bar></app-top-bar>
-<h1>products</h1>
+<h3>Products</h3>
 
 <div class="box">
   <div class="cont" *ngFor="let product of products">
     <div class="each">
-      <a [routerLink]="['/products', product.id, 'product_detail']">Name: {{product.name}}</a>
-      <p>Image: {{product.image}}</p>
-      <p>Status: {{product.status}}</p>
+      <img [src]="product.image" alt="img">
+      <!-- <p>Image: {{product.image}}</p> -->
+      <div class="cntn">
+        <a [routerLink]="['/products', product.id, 'product_detail']">{{product.name}}</a>
+        <p>Status: {{product.status}}</p>
+
+      </div>
     </div>
   </div>
 </div>

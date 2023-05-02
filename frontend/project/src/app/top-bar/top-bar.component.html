@@ -1,7 +1,28 @@
+<!--<div class="head">-->
+<!--  <h1 [routerLink]="'/'">Home</h1>-->
+<!--  <button *ngIf="!is_logged" (click)="login_button()" class="login-button">Login</button>-->
+<!--  <button *ngIf="!is_logged" (click)="register_button()" class = "register-button">Register</button>-->
+<!--  <button *ngIf="is_logged" (click)="profile_button()" class="profile-button">Profile</button>-->
+<!--  <button *ngIf="is_logged" (click)="logout()" class="profile-button">LogOut</button>-->
+<!--  <button *ngIf="is_logged" (click)="create_ad_button()" class="create-ad-button">Create Ad</button>-->
+<!--</div>-->
+
 <div class="head">
-  <h1 [routerLink]="'/'">Home</h1>
-  <button *ngIf="!is_logged" (click)="login_button()" class="login-button">Login</button>
-  <button *ngIf="!is_logged" (click)="register_button()" class = "register-button">Register</button>
-  <button *ngIf="is_logged" (click)="profile_button()" class="profile-button">Profile</button>
-  <button *ngIf="is_logged" (click)="create_ad_button()" class="create-ad-button">Create Ad</button>
+  <img [routerLink]="'/'" src="assets/logo.svg" alt="ServiceScape Logo" class="logo">
+  <!-- <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button">
+        <img src="assets/icons/search.svg" alt="search" class="button">
+      </button>
+    </div>
+  </div> -->
+  <button *ngIf="!is_logged" (click)="login_button()" class="btn login">Login</button>
+  <button *ngIf="!is_logged" (click)="register_button()" class = "btn register">Register</button>
+  <div class="home">
+    <button *ngIf="is_logged" (click)="profile_button()" type="button" class="btn btn-light left" >Profile</button>
+    <button *ngIf="is_logged" (click)="create_ad_button()" type="button" class="btn btn-primary right">Create Ad</button>
+
+  </div>
+
 </div>

@@ -8,4 +8,5 @@ export interface Product{
   category:Category;
   status:boolean;
   description:string;
+  phone:string;
 }

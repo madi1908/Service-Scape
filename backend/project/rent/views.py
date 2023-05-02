@@ -6,8 +6,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes, renderer_classes
 from rest_framework.views import APIView
 from rest_framework.renderers import JSONRenderer
-
-
+from rest_framework_jwt.utils import jwt_decode_handler
 @api_view(['GET'])
 @renderer_classes((JSONRenderer,))
 def category_list(request):
@@ -36,6 +35,24 @@ def category_detail(request, id):
     serializer = CategorySerializer(category)
     return Response(serializer.data, status=status.HTTP_200_OK)
 
+
+@api_view(['POST'])
+@renderer_classes((JSONRenderer,))
+def create_product(request):
+    decoded = jwt_decode_handler(request.META["HTTP_AUTHORIZATION"])
+    req_data = {
+        "name": request.data.get('name'),
+        "image": 'NO IMAGE',
+        "status": request.data.get('status'),
+        "category_id": request.data.get('category'),
+        "price": request.data.get('price'),
+        "description": request.data.get('description'),
+        "user_id": decoded["user_id"]
+    }
+
+    form = Product(**req_data)
+    product = form.save()
+    return Response(product, status=status.HTTP_200_OK)
 
 class ProductsAPIView(APIView):
     def get(self, request):

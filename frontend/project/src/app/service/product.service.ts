@@ -25,9 +25,9 @@ export class ProductService {
      `${this.BASE_URL}/products/${product_id}`
    );
   }
-  getCategoryProduct(product_id:string, category_id:string):Observable<Product>{
-   return this.client.get<Product>(
-     `${this.BASE_URL}/categories/${category_id}/products/${product_id}`
-   );
-  }
+  // getCategoryProduct(product_id:string, category_id:string):Observable<Product>{
+  //  return this.client.get<Product>(
+  //    `${this.BASE_URL}/categories/${category_id}/products/${product_id}`
+  //  );
+  // }
 }

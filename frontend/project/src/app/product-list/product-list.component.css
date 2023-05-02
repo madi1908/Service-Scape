@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+.box{
+  display: flex;
+  column-gap: 69px;
+
+}
+.cont{
+  /* display: block; */
+  /* margin-bottom: 10px; */
+  width: 288px;
+  height: 300px;
+  background-color: #eaeaea;
+  padding:17px 9px 6px 9px;
+  margin-bottom: 30px;
+
+}
+a{
+  display: flex;
+  justify-content: center;
+  margin-bottom:15px;
+}
+img{
+  display: flex;
+  justify-content: center;
+  width:268px;
+  height:211px;
+  object-fit: cover;
+}
+p{
+  float: right;
+  margin-top: 8px;
+}

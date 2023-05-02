@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0fc6e3-bb54-48e8-b662-44703d41dc6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/project/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/project/rent/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/rent/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/project/rent/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/rent/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/project/rent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/rent/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/project/rent/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/project/rent/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/category-list/category-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/category-list/category-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/category-list/category-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/category-list/category-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/category-products/category-products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/category-products/category-products.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/category-products/category-products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/category-products/category-products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/models/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/models/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/product-detail/product-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/product-detail/product-detail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/product-detail/product-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/product-detail/product-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/product-list/product-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/service/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/service/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/app/top-bar/top-bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +67,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\ServiceScape\frontend\project\src\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,10 +85,30 @@
       <workItem from="1681802908943" duration="12000" />
       <workItem from="1681813516630" duration="2589000" />
       <workItem from="1681882506018" duration="606000" />
+      <workItem from="1681972511661" duration="18000" />
+      <workItem from="1682412216417" duration="4149000" />
+      <workItem from="1682488983851" duration="2884000" />
+      <workItem from="1682512129965" duration="15768000" />
+      <workItem from="1682554501012" duration="8911000" />
+      <workItem from="1682656240175" duration="1461000" />
+      <workItem from="1682699282870" duration="4791000" />
+      <workItem from="1682763487358" duration="1564000" />
+      <workItem from="1683016909181" duration="3187000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,11 +1,25 @@
 <app-top-bar></app-top-bar>
 
-<div class="right" *ngIf="product">
+<div class="rgt" *ngIf="product">
 
-  <p >Image: {{product.image}}</p>
-  <p >Name: {{product.name}}</p>
-  <p >Status: {{product.status}}</p>
-  <p >Price: {{product.price}}</p>
-  <p >Description: {{product.description}}</p>
+  <!-- <p >Image: {{product.image}}</p> -->
+  <div class="cnt">
+    <!-- <div class="image"> -->
+    <img [src]="product.image" alt="img">
+    <!-- </div> -->
+
+    <div class="descr">
+      <!-- <div class="block"> -->
+      <ul>
+        <p class="name">{{product.name}}</p>
+        <p class="price"><b>Price: {{product.price}}</b></p>
+        <p class="description">Description:{{product.description}}</p>
+        <p class="status">Status: {{product.status}}</p>
+      </ul>
+      <!-- </div> -->
+
+    </div>
+  </div>
+
 </div>
 

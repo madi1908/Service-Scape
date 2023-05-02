@@ -10,7 +10,9 @@ import {HttpClientModule} from "@angular/common/http";
 import { CategoryProductsComponent } from './category-products/category-products.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { AdComponent } from './ad/ad.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -20,14 +22,17 @@ import {FormsModule} from "@angular/forms";
     CategoryListComponent,
     CategoryProductsComponent,
     ProductListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    AdComponent,
+    ProfileComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        HttpClientModule,
-        FormsModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

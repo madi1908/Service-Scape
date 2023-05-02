@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+.head{
+  width: 100%;
+  height: 68px;
+}
+.head > *{
+  display: inline;
+}
+.logo{
+  margin-top: 9px;
+  /* margin-left: 136px; */
+}
+.btn{
+  justify-content: space-between;
+  height:32px;
+  width:96px;
+  float: right;
+  margin-top: 18px;
+
+}
+.btnleft{
+  margin-left: 1140px;
+}
+.btn .right{
+  margin: 18px, 120px, 18px;
+}
+
+
+
+
